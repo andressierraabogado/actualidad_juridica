@@ -36,6 +36,29 @@ plugins:
 # Build settings
 paginate: 6
 
+remote_theme: "mmistakes/minimal-mistakes@4.20.0"
+
+
+# Configuración para GitHub Pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: true
+
+# Configuración específica de GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configuración específica de GitHub Pages
+# Configuración específica de GitHub Pages
+repository: andressierraabogado/actualidad_juridica
+
+
+
 
 
 
