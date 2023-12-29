@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    {% include head.html %}
+
+    <body id="page-top">
+
+        {% include whatsapp.html %}
+        {% include navbar.html %}
+        {{ content }}
+        {% include footer.html %}
+
+        <!-- Core theme JS-->
+        <script src="{{ '/js/scripts.js' | relative_url }}"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        {% include google-analytics.html %}
+    </body>
+
+</html>
