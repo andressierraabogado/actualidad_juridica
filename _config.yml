@@ -36,6 +36,30 @@ plugins:
 # Build settings
 paginate: 6
 
+remote_theme: jekyll/minimal-mistakes # o tu tema preferido
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configuración para GitHub Pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: true
+
+# Configuración específica de GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configuración específica de GitHub Pages
+repository: yourusername/yourusername.github.io
+
+
 
 
 
